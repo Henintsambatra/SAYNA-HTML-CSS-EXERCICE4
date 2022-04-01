@@ -1,0 +1,226 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;500;600;900&display=swap');
+@font-face {
+    font-family: 'Spiderman';
+    src: url('../Police/Spiderman.otf');
+    font-style: normal;
+    font-weight: 100;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.conteneur {
+    width: 80%;
+    margin: 0 auto;
+}
+
+body {
+    font-size: 14px;
+    font-family: Montserrat;
+}
+
+@media screen and (max-width:768px) {
+    nav .navbar {
+        position: absolute;
+        height: 50vh;
+    }
+    nav .menu ul {
+        display: none;
+    }
+    #hero .conteneur .titre {
+        text-align: center;
+    }
+    #hero .conteneur .titre {
+        font-size: 10px;
+    }
+}
+
+ :root {
+    --primary-black-color: #000000;
+    --primary-ad-color: #f1c530;
+    --primary-white-color: #ffff;
+}
+
+ul {
+    list-style-type: none;
+}
+
+
+/* La partie dising de la barre de navigaiton */
+
+nav {
+    padding: 16px 0;
+    background-color: var(--primary-ad-color);
+}
+
+nav .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav .brand img {
+    padding-left: 20px;
+}
+
+nav .brand img:nth-child(2) {
+    padding-bottom: 15px;
+}
+
+nav .menu ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav .menu ul li {
+    font-size: 20px;
+    margin-left: 70px;
+}
+
+nav .menu ul li a {
+    color: var(--primary-white-color);
+    text-decoration: none;
+}
+
+
+/* Desing de la partie Heros */
+
+#hero {
+    background-image: url('../images/img7.png');
+    height: 600px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+#hero .conteneur .titre {
+    font-size: 135px;
+    font-family: 'Spiderman';
+    padding-top: 15%;
+    color: var(--primary-white-color);
+}
+
+#hero .conteneur .description {
+    padding: 10px 0;
+    font-size: 25px;
+    font-weight: bold;
+    color: var(--primary-white-color);
+}
+
+
+/* Desing la partie soldats adversaire Dennis */
+
+#adversaires {
+    background-position: center;
+    background-color: var(--primary-ad-color);
+}
+
+#adversaire .Dennis {
+    justify-content: center;
+    text-align: center;
+}
+
+#adversaires .Dennis ul {
+    margin: 0 25px;
+    display: inline-block;
+    padding-top: 5%;
+    padding-left: 12px;
+}
+
+#adversaires .Dennis ul .content {
+    height: 350px;
+    width: 280px;
+    margin-top: -5px;
+    padding-left: 15px;
+    border: 10px solid var(--primary-black-color);
+    border-radius: 0 0 15% 15%;
+    border-top: none;
+}
+
+.Dennis ul h3 {
+    padding: 15px 0;
+    text-align: center;
+}
+
+.Dennis ul span {
+    font-weight: bold;
+}
+
+
+/* Desing la partie Vautour et Mysterio */
+
+#Mysterio {
+    padding-bottom: 10%;
+    text-align: center;
+    justify-content: center;
+}
+
+#Mysterio .content {
+    text-align: left;
+}
+
+
+/* Desing de la partie footer */
+
+footer {
+    padding-top: 5%;
+    height: 300px;
+    color: white;
+    background-color: var(--primary-black-color);
+}
+
+footer .conteneur .media {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer .conteneur .info ul {
+    display: flex;
+}
+
+footer .conteneur li {
+    margin: 0 18px;
+}
+
+footer .conteneur img:nth-child(2) {
+    margin: 0 5px;
+    padding-bottom: 15px;
+}
+
+footer .logos {
+    padding-right: 20px;
+}
+
+footer .info .langue,
+.social {
+    padding: 5px 2px;
+    background-color: var(--primary-ad-color);
+}
+
+.langue {
+    color: var(--white-color);
+    border-radius: 20px;
+}
+
+.social {
+    margin: 0 5px;
+    margin-top: 60px;
+    padding: 5px 5px;
+    border-radius: 50px;
+}
+
+.sayna,
+.our {
+    padding: 10px;
+    text-align: center;
+}
+
+footer a {
+    color: var(--white-color);
+    text-decoration: none;
+}

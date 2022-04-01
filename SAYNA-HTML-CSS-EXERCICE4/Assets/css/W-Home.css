@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;500;600;900&display=swap');
+@font-face {
+    font-family: 'Spiderman';
+    src: url('../Police/Spiderman.otf');
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 12px;
+    color: var(--white-color);
+    font-family: 'Montserrat';
+}
+
+
+/* Couleur utiliser sur noway*/
+
+ :root {
+    --spiderman-color: #b11313;
+    --Yellow-toile-color: #f1c530;
+    --Sayna-blue-color: #114c92;
+    --white-color: #ffff;
+}
+
+nav,
+nav a {
+    font-size: 20px;
+    color: var(--white-color);
+    text-decoration: none;
+    background-color: var(--spiderman-color);
+}
+
+.Man {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.btn {
+    font-size: 14px;
+    border-color: var(--white-color);
+    border-radius: 15px;
+}
+
+
+/* Design de la partie spiderman */
+
+#spiderman {
+    height: 1200px;
+    background-image: url('../images/img1.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+#spiderman h1 {
+    font-family: 'Spiderman';
+    padding-bottom: 15%;
+    padding-top: 60%;
+    font-size: 85px;
+}
+
+#devienspideman {
+    height: 500px;
+    background-color: var(--Sayna-blue-color);
+    background-size: cover;
+}
+
+#speeder {
+    height: 640px;
+    background-size: cover;
+    background-color: var(--spiderman-color);
+}
+
+h3 {
+    padding-top: 15%;
+    font-size: 20px;
+    font-family: 'Spiderman';
+}
+
+.black img {
+    padding-left: 15%;
+}
+
+footer {
+    height: 300px;
+    color: white;
+    background-color: black;
+}
+
+footer a {
+    color: var(--white-color);
+    text-decoration: none;
+}
+
+footer .form-select {
+    color: white;
+    padding-left: 0 45px;
+    border-color: var(--spiderman-color);
+    background-color: var(--spiderman-color);
+}
+
+.social {
+    padding: 5px 5px;
+    border-radius: 50%;
+    background-color: var(--spiderman-color);
+}

@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;500;600;900&display=swap');
+@font-face {
+    font-family: 'Spiderman';
+    src: url('../Police/Spiderman.otf');
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    color: var(--white-color);
+    font-family: 'Montserrat';
+}
+
+
+/* Couleur utiliser sur Heros*/
+
+ :root {
+    --spiderman-color: #b11313;
+    --white-color: #ffff;
+}
+
+nav,
+nav a {
+    font-size: 20px;
+    color: var(--white-color);
+    text-decoration: none;
+    background-color: var(--spiderman-color);
+}
+
+.conteneur {
+    width: 80%;
+    margin: 0 auto;
+}
+
+#Bonus {
+    background-image: url('../images/img35.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 600px;
+}
+
+#Bonus .Un-heros {
+    padding-top: 40%;
+}
+
+#Bonus .Un-heros :nth-child(1) {
+    font-family: 'Spiderman';
+    font-size: 80px;
+    font-weight: 100;
+}
+
+#Bonus .Un-heros :nth-child(2) {
+    font-size: 25px;
+}
+
+
+/* Footer */
+
+footer {
+    height: 300px;
+    color: white;
+    background-color: black;
+}
+
+footer a {
+    color: var(--white-color);
+    text-decoration: none;
+}
+
+footer .form-select {
+    color: white;
+    padding-left: 0 45px;
+    border-color: var(--spiderman-color);
+    background-color: var(--spiderman-color);
+}
+
+.social {
+    padding: 5px 5px;
+    border-radius: 50%;
+    background-color: var(--spiderman-color);
+}
